@@ -2,8 +2,9 @@
 ###############
 
 :date: 2018-08-01 09:00
-:summary: Компиляция. Ввод и вывод в Си. Ошибки и отладка. Операторы.
+:summary: Разбор "Hello, World!". Ошибки и этапы компиляции. Переменные в языке Си. Эффект Overflow. Циклы for и while. Операторы сравнения. Деление нацело и взятие остатка.
 :status: published
+:published: yes
 :test_link: http://judge2.vdi.mipt.ru/cgi-bin/new-register?contest_id=730303
 
 .. default-role:: code

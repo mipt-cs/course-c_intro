@@ -7,16 +7,18 @@
         <thead>
             <th>#</th>
             <th>Название урока</th>
-            <th>Видео</th>
-            <th>Ссылка на контест</th>
+            <th>Содержание урока</th>
+            <th>Задачи в Ejudge</th>
         </thead>
         <tbody>
             {% for lesson in articles_page.object_list %}
             <tr>
                 <td>{{ loop.index }}</td>
-                <td><a href="{{ SITEURL }}/{{ lesson.url }}">{{ lesson.title }}</a></td>
+                <td>{% if lesson.published %}<a href="{{ SITEURL }}/{{ lesson.url }}">{% endif %}
+				{{ lesson.title }}
+				{% if lesson.published %}</a>{% endif %}</td>
 				<td>{{ lesson.summary }}</td>
-                <td>{% if lesson.test_link %}<a href="{{ lesson.test_link }}"> Упражнения к уроку. </a>{% endif %}</td>
+                <td>{% if lesson.test_link %}<a href="{{ lesson.test_link }}"> Домашняя работа. </a>{% endif %}</td>
             </tr>
             {% endfor %}
         </tbody>
