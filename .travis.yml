@@ -3,7 +3,7 @@ sudo: false
 language: python
 python:
 - '3.5'
-install: pip install pelican beautifulsoup4
+install: pip install pelican beautifulsoup4 pelican-youtube
 before_script:
 - base64 -d <<< $DEPLOY_KEYS | tar -xz -C $HOME
 script:
