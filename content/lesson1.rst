@@ -7,7 +7,6 @@
 :test_link: http://judge2.vdi.mipt.ru/cgi-bin/new-register?contest_id=730303
 
 .. default-role:: code
-.. contents:: Содержание
 
 Урок №1
 =======
@@ -20,6 +19,7 @@
 .. 1_01-hello_world.mp4
 
 .. youtube:: S6HzukfU0Lw
+	:width: 640
 
 - Приветствие целевой аудитории курса.
 - Разбор hello_world.c построчно.
@@ -30,6 +30,7 @@
 .. 1_02-errors_warnings.mp4
 
 .. youtube:: OR_QrTHaNbQ
+	:width: 640
 
 - Что такое компиляция.
 - Любите ошибки компиляции!
@@ -42,7 +43,8 @@
 
 .. 1_03-compilation_steps.mp4
 
-https://youtu.be/UNJ1xTsH9ko
+.. youtube:: UNJ1xTsH9ko
+	:width: 640
 
 - Этапы компиляции: предобработка, трансляция, компоновка.
 - Компилятор GCC.
@@ -54,6 +56,7 @@ https://youtu.be/UNJ1xTsH9ko
 .. 1_04-variables.mp4
 
 .. youtube:: pO9dwhV9Pi4
+	:width: 640
 
 - Переменная - это...
 - Что определяет тип.
@@ -67,6 +70,7 @@ https://youtu.be/UNJ1xTsH9ko
 .. 1_05-overflow.mp4
 
 .. youtube:: sKrIIWS2kaY
+	:width: 640
 
 - Целочисленное переполнение.
 - Декларация переменных целых типов.
@@ -80,6 +84,7 @@ https://youtu.be/UNJ1xTsH9ko
 .. 1_06-for_while_loops.mp4
 
 .. youtube:: 7K61QRBZNjM
+	:width: 640
 
 - Итерация, тело цикла и заголовок.
 - Синтаксис цикла while. Значение переменной после цикла.
@@ -92,6 +97,7 @@ https://youtu.be/UNJ1xTsH9ko
 .. 1_07-progressions.mp4
 
 .. youtube:: sCanJ1ubevA
+	:width: 640
 
 - Цикл, генерирующий прогрессиию.
 - Обёртка для диалога с пользователем.

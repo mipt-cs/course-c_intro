@@ -65,7 +65,7 @@ h1, h2, h3, h4, h5, h6 {
 	font-weight: 400;
 	line-height: 1.1;
 	margin-bottom: .8em;
-    font-family: 'Yanone Kaffeesatz', arial, serif;
+    font-family: arial, serif;
 }
 
 h3, h4, h5, h6 { margin-top: .8em; }
@@ -76,12 +76,12 @@ hr { border: 2px solid #EEEEEE; }
 a {outline: 0;}
 a img {border: 0px; text-decoration: none;}
 a:link, a:visited {
-	color: #C74350;
+	color: #293a63;
 	padding: 0 1px;
 	text-decoration: underline;
 }
 a:hover, a:active {
-	background-color: #C74350;
+	background-color: #293a63;
 	color: #fff;
 	text-decoration: none;
 	text-shadow: 1px 1px 1px #333;
@@ -204,7 +204,7 @@ img.left, figure.left {float: left; margin: 0 2em 2em 0;}
 	
 	/* Main Nav */
 	#banner nav {
-		background: #000305;
+		background: #293a63;
 		font-size: 1.143em;
 		height: 40px;
 		line-height: 30px;
@@ -230,7 +230,7 @@ img.left, figure.left {float: left; margin: 0 2em 2em 0;}
 	}
 	#banner nav a:hover, #banner nav a:active,
 	#banner nav .active a:link, #banner nav .active a:visited {
-		background: #C74451;
+		background: #2b5acc;
 		color: #fff;
 		text-shadow: none !important;
 	}
@@ -487,7 +487,7 @@ code {
 }
 
 .logo {
-	width: 50%;
+	width: 100%;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
