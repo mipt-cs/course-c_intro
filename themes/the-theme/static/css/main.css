@@ -93,8 +93,8 @@ h1 a:hover {
 	
 /* Paragraphs */
 div.line-block,
-p { margin-top: 1em;
-    margin-bottom: 1em;}
+p { margin-top: 0.5em;
+    margin-bottom: 0.5em;}
 
 strong, b {font-weight: bold;}
 em, i {font-style: italic;}
@@ -102,16 +102,16 @@ em, i {font-style: italic;}
 /* Lists */
 ul {
 	list-style: outside disc;
-	margin: 0em 0 0 1.5em;
+	margin: 0em 0 0 1.0em;
 }
 
 ol {
 	list-style: outside decimal;
-	margin: 0em 0 0 1.5em;
+	margin: 0em 0 0 1.0em;
 }
 
-li { margin-top: 0.5em;
-     margin-bottom: 1em; }
+li { margin-top: 0em;
+     margin-bottom: 0.5em; }
 
 .post-info {
     float:right;
@@ -541,7 +541,11 @@ span.formula,code {
     white-space: nowrap;
 }
 
-.youtube-16x9 {
-	width: 640;
-	height: 360;
+div.youtube-16x9 > iframe{
+	width: 640px;
+	height: 360px;
+}
+
+div.youtube {
+	text-align:center;
 }

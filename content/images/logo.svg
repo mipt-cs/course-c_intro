@@ -38,27 +38,24 @@
    showgrid="false"
    showguides="true"
    inkscape:guide-bbox="true"
-   inkscape:zoom="1.9388646"
-   inkscape:cx="631.66619"
-   inkscape:cy="102.93891"
+   inkscape:zoom="2.7419687"
+   inkscape:cx="715.97223"
+   inkscape:cy="65.707174"
    inkscape:window-x="-4"
    inkscape:window-y="0"
    inkscape:window-maximized="0"
-   inkscape:current-layer="Layer_1" />
+   inkscape:current-layer="g6214" />
 
 
 
 <g
    id="g6214"
-   transform="matrix(0.79297217,0,0,0.79297217,-28.314534,-35.638732)"><rect
+   transform="matrix(0.79297217,0,0,0.79297217,-28.314534,-35.638732)"><path
      style="fill:#293a63;fill-opacity:1"
-     y="47.329613"
-     x="35.81559"
-     height="247.85237"
-     width="1009.632"
+     d="M 54.004478,47.329613 H 1027.2588 c 14.2684,0 18.1888,3.920419 18.1888,18.188887 v 216.51891 c 0,14.26846 -1.3983,13.14457 -15.6667,13.14457 H 51.482322 c -14.268469,0 -15.666732,1.12389 -15.666732,-13.14457 V 65.5185 c 0,-14.268468 3.920419,-18.188887 18.188888,-18.188887 z"
      id="rect5314"
-     ry="25.755358"
-     rx="0" /><g
+     inkscape:connector-curvature="0"
+     sodipodi:nodetypes="sssssssss" /><g
      aria-label="&quot;Курс молодого бойца&quot;"
      transform="translate(-7.1957605,12.835648)"
      style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none"
