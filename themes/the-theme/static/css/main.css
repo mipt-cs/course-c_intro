@@ -540,3 +540,8 @@ img.align-center {
 span.formula,code {
     white-space: nowrap;
 }
+
+.youtube-16x9 {
+	width: 640;
+	height: 360;
+}
