@@ -15,7 +15,7 @@
             <tr>
                 <td>{{ loop.index }}</td>
                 <td><a href="{{ SITEURL }}/{{ lesson.url }}">{{ lesson.title }}</a></td>
-				<td><a href="{{ SITEURL }}/{{ lesson.url }}">{{ lesson.summary }}</a></td>
+				<td>{{ lesson.summary }}</td>
                 <td>{% if lesson.test_link %}<a href="{{ lesson.test_link }}"> Упражнения к уроку. </a>{% endif %}</td>
             </tr>
             {% endfor %}
