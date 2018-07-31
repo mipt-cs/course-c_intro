@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+{% block content_title %}{% endblock %}
+{% block content %}
+
+<aside class="body">
+    <table>
+        <thead>
+            <th>#</th>
+            <th>Название урока</th>
+            <th>Видео</th>
+            <th>Ссылка на контест</th>
+        </thead>
+        <tbody>
+            {% for lesson in articles_page.object_list %}
+            <tr>
+                <td>{{ loop.index }}</td>
+                <td><a href="{{ SITEURL }}/{{ lesson.url }}">{{ lesson.title }}</a></td>
+				<td><a href="{{ SITEURL }}/{{ lesson.url }}">{{ lesson.summary }}</a></td>
+                <td>{% if lesson.test_link %}<a href="{{ lesson.test_link }}"> Упражнения к уроку. </a>{% endif %}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</aside>
+
+{% endblock content %}
