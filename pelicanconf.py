@@ -21,7 +21,7 @@ TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
-MENUITEMS = (('Главная', '/'), ('Сайт ФАКТ', 'https://mipt.ru/education/departments/fakt/'))
+MENUITEMS = (('Уроки курса', '/'), ('Сайт ФАКТ', 'https://mipt.ru/education/departments/fakt/'))
 
 # Blogroll
 # LINKS = (('Pelican', 'http://getpelican.com/'),
