@@ -88,7 +88,7 @@
 
 .. code-include:: code/lesson1/typecasting.c
     :lexer: cpp
-	:encoding: windows-1251
+	:encoding: WINDOWS-1251
 
 
 Циклы for и while: сходство и различие
