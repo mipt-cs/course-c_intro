@@ -5,7 +5,7 @@
 :summary: Разбор "Hello, World!". Ошибки и этапы компиляции. Переменные в языке Си. Эффект Overflow. Циклы for и while. Операторы сравнения. Деление нацело и взятие остатка.
 :status: published
 :published: yes
-:test_link: http://judge2.vdi.mipt.ru/cgi-bin/new-register?contest_id=730303
+:test_link: http://judge2.vdi.mipt.ru/fixme.html
 
 .. default-role:: code
 
@@ -30,8 +30,7 @@
 
 .. code-include:: code/lesson1/hello_world.c
     :lexer: cpp
-	:encoding: windows-1251
-
+	
 Ошибки и предупреждения при компиляции
 ======================================
 
@@ -45,7 +44,6 @@
 
 .. code-include:: code/lesson1/warnings_errors.c
     :lexer: cpp
-	:encoding: windows-1251
 
 Этапы компиляции на Си: предобработка, трансляция, компоновка
 =============================================================
@@ -80,15 +78,12 @@
 
 .. code-include:: code/lesson1/declarations.c
     :lexer: cpp
-	:encoding: windows-1251
 
 .. code-include:: code/lesson1/overflows.c
     :lexer: cpp
-	:encoding: windows-1251
 
 .. code-include:: code/lesson1/typecasting.c
     :lexer: cpp
-	:encoding: WINDOWS-1251
 
 
 Циклы for и while: сходство и различие
@@ -113,7 +108,6 @@
 
 .. code-include:: code/lesson1/generation.c
     :lexer: cpp
-	:encoding: windows-1251
 	
 Операции присваивания и сравнения чисел в Си
 ============================================
@@ -127,14 +121,13 @@
 
 .. code-include:: code/lesson1/assignment.c
     :lexer: cpp
-	:encoding: windows-1251
 	
 .. code-include:: code/lesson1/comparisons.c
     :lexer: cpp
-	:encoding: windows-1251
 
 Деление нацело и взятие остатка
 ===============================
+
 .. youtube:: 8K5Rd0xRAy0
 
 Деление нацело и взятие остатка.
@@ -144,7 +137,6 @@
 
 .. code-include:: code/lesson1/division.c
     :lexer: cpp
-	:encoding: windows-1251
 
 .. Файлы видео курса:
 	1_01-hello_world.mp4
