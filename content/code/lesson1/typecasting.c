@@ -9,7 +9,7 @@ int main(int argc, char* argv[])
     printf("z = %lld\n", z);
 
     // char is explicitly cast to int
-    char c = 'ß';
+    char c = 'Ð¯';
     int d = (int)c * 10;
     printf("d = %d\n", d);
 
