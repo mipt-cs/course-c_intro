@@ -7,9 +7,8 @@ int main(int argc, char* argv[])
     printf("x = %d\n", x);
     x += 1;
     printf("x = %d\n", x);
-    x *= 2;
+    x -= 1;
     printf("x = %d\n", x);
-
 
     return 0;
 }

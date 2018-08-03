@@ -4,10 +4,11 @@
 
 int main(int argc, char* argv[])
 {
-    unsigned char c;
-    int8_t i8;
-    int16_t i16;
-    int32_t i32;
+    char c;
+    int i;
+    double d;
+    bool b;
+
     int64_t i64;
 
     return 0;
