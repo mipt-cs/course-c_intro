@@ -75,7 +75,7 @@
 Тест простоты числа с non-tail return.
 
 ``break_usage.c``
-----------------
+-----------------
 
 .. code-include:: code/lesson2/break_usage.c
 
