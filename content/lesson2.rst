@@ -42,10 +42,12 @@
 Ветвление switch и почему нужен break.
 
 ``never_goto.c``
+
 .. code-include:: code/lesson2/never_goto.c
     :lexer: cpp
 
 ``switch_case.c``
+
 .. code-include:: code/lesson2/switch_case.c
     :lexer: cpp
 	
