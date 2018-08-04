@@ -21,11 +21,21 @@
 Вложенные условные инструкции.
 Каскадное ветвление else-if.
 
+
+``if_else.c``
+-------------
+
 .. code-include:: code/lesson2/if_else.c
     :lexer: cpp
-	
+
+``nested_if.c``
+---------------
+
 .. code-include:: code/lesson2/nested_if.c
     :lexer: cpp
+
+``cascade_elif.c``
+------------------
 
 .. code-include:: code/lesson2/cascade_elif.c
     :lexer: cpp
@@ -56,12 +66,36 @@
 Управление циклом: break, continue
 ==================================
 
+.. youtube:: V9zc-Ik8TtI
+
 Операторы управления циклом: break и continue.
 Адекватное использование break.
 Адекватное испльзование continue.
 Тест простоты числа с использованием break и переменной-флага.
 Тест простоты числа с non-tail return.
 
+``break_usage.c``
+----------------
+
+.. code-include:: code/lesson2/break_usage.c
+
+
+``continue_usage.c``
+--------------------
+
+.. code-include:: code/lesson2/continue_usage.c
+
+
+``prime_break.c``
+-----------------
+
+.. code-include:: code/lesson2/prime_break.c
+
+
+``prime_function.c``
+--------------------
+
+.. code-include:: code/lesson2/prime_function.c
 
 Разложение числа на множители
 =============================
@@ -87,3 +121,4 @@
 .. Файлы видео курса:
 	2_01-if_else_nested_and_cascade.mp4
 	2_02-goto_switch.mp4
+	2_03-break_continue_return.mp4

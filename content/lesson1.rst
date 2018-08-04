@@ -76,11 +76,20 @@
 Неявное приведение типов: проблема с unsigned и signed.
 Явное приведение типов.
 
+``declarations.c``
+------------------
+
 .. code-include:: code/lesson1/declarations.c
     :lexer: cpp
 
+``overflows.c``
+---------------
+
 .. code-include:: code/lesson1/overflows.c
     :lexer: cpp
+
+``typecasting.c``
+-----------------
 
 .. code-include:: code/lesson1/typecasting.c
     :lexer: cpp
@@ -106,6 +115,9 @@
 Особенности программ, сдаваемых в систему Ejudge.
 Отладка программы для отрицательного шага.
 
+``generation.c``
+----------------
+
 .. code-include:: code/lesson1/generation.c
     :lexer: cpp
 	
@@ -119,9 +131,15 @@
 Операция сравнения — арифметическая операция.
 Результат сравнения — целое число 0 или 1.
 
+``assignment.c``
+----------------
+
 .. code-include:: code/lesson1/assignment.c
     :lexer: cpp
-	
+
+``comparisons.c``
+-----------------
+
 .. code-include:: code/lesson1/comparisons.c
     :lexer: cpp
 
@@ -134,6 +152,9 @@
 Разложение числа на цифры.
 Осторожно: отрицательные остатки при делении отрицательного на положительное!
 Как сделать дробное деление для целых чисел.
+
+``division.c``
+--------------
 
 .. code-include:: code/lesson1/division.c
     :lexer: cpp
