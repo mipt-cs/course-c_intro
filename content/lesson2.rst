@@ -78,24 +78,28 @@
 -----------------
 
 .. code-include:: code/lesson2/break_usage.c
+    :lexer: cpp
 
 
 ``continue_usage.c``
 --------------------
 
 .. code-include:: code/lesson2/continue_usage.c
+    :lexer: cpp
 
 
 ``prime_break.c``
 -----------------
 
 .. code-include:: code/lesson2/prime_break.c
+    :lexer: cpp
 
 
 ``prime_function.c``
 --------------------
 
 .. code-include:: code/lesson2/prime_function.c
+    :lexer: cpp
 
 Разложение числа на множители
 =============================
@@ -110,9 +114,16 @@
 -------------------
 
 .. code-include:: code/lesson2/factorization.c
+    :lexer: cpp
 
-Обработка последовательностей чисел. Фильтрация потока чисел
-============================================================
+Фильтрация потока чисел
+=======================
+
+Типы работы с последовательностями чисел.
+Фильтрация последовательности.
+
+.. code-include:: code/lesson2/factorization.c
+    :lexer: cpp
 
 
 Индуктивные функции: подсчёт, сумма, произведение
