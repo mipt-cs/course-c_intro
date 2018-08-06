@@ -124,6 +124,9 @@
 Типы работы с последовательностями чисел.
 Фильтрация последовательности.
 
+``filtration.c``
+----------------
+
 .. code-include:: code/lesson2/filtration.c
     :lexer: cpp
 
@@ -138,6 +141,9 @@
 Сумма цифр числа.
 Произведение цифр числа.
 
+``inductive_count_production_sum.c``
+------------------------------------
+
 .. code-include:: code/lesson2/inductive_count_production_sum.c
     :lexer: cpp
 
@@ -149,6 +155,9 @@
 Проверка соответствия критерию.
 Алгоритмы any of и all of.
 Логические вычисления или работа с флажками?
+
+``inductive_any_all.c``
+-----------------------
 
 .. code-include:: code/lesson2/inductive_any_all.c
     :lexer: cpp
@@ -163,9 +172,11 @@
 Поиск местоположения максимума.
 Подсчёт элементов, равных максимальному.
 
+``inductive_maximum.c``
+-----------------------
+
 .. code-include:: code/lesson2/inductive_maximum.c
     :lexer: cpp
-
 
 
 .. Видео ролики курса:
