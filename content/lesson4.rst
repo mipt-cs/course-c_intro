@@ -53,7 +53,7 @@
 Числа Фибоначчи.
 
 ``recursion_examples.c``
-----------------
+------------------------
 
 .. code-include:: code/lesson4/recursion_examples.c
     :lexer: cpp
