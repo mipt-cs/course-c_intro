@@ -23,11 +23,5 @@ int main(int argc, char* argv[])
             printf("%3d", i);
     printf("\n");
 
-
     return 0;
 }
-
-
-
-
-
