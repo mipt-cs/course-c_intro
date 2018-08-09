@@ -5,7 +5,6 @@
 :summary: Разбор "Hello, World!". Ошибки и этапы компиляции. Переменные в языке Си. Эффект Overflow. Циклы for и while. Операторы сравнения. Деление нацело и взятие остатка.
 :status: published
 :published: yes
-:test_link: http://judge2.vdi.mipt.ru/fixme.html
 
 .. default-role:: code
 
