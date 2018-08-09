@@ -10,8 +10,8 @@ import sys
 sys.path.append(os.curdir)
 from pelicanconf import *
 
-SITEURL = 'http://cs.mipt.ru/c_intro'
-RELATIVE_URLS = True
+SITEURL = 'http://cs.mipt.ru/c_intro/'
+RELATIVE_URLS = False
 
 FEED_ALL_ATOM = None
 CATEGORY_FEED_ATOM = None

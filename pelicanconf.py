@@ -6,7 +6,7 @@ import os
 
 AUTHOR = 'Timofey Khirianov'
 SITENAME = 'Курс молодого бойца (язык Си)'
-SITEURL = 'http://cs.mipt.ru/c_intro'
+SITEURL = 'http://cs.mipt.ru/c_intro/'
 
 PATH = 'content'
 
