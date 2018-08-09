@@ -15,7 +15,7 @@ int main(int argc, char* argv[])
         printf("Allocate array - OK. iteration %d.\n", k);
         for (int i = 0; i < N; ++i)
             A[i] = i;
-        free(A); //TODO: uncomment this line
+        //free(A); //TODO: uncomment this line
     }
     printf("Program is on finish!\n");
     system("pause");
