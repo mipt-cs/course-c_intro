@@ -89,24 +89,51 @@
 .. code-include:: code/lesson5/dynamic_int.c
     :lexer: cpp
 
-
 Техника безопасности при работе с памятью
 =========================================
 
-Ошибки работы с памятью: Segmentation fault, Memory leak.
-Некорректные адреса.
+.. youtube:: HyyfbYXuW1U
+
+Ошибки работы с памятью в Си: Segmentation fault, Memory leak.
 Инициализация указателей: NULL.
-Контроль за динамической памятью.
-Проблема ответственности за освобождение памяти.
+Проверка корректности адреса.
+Ответственность за освобождение памяти.
 
+``segmentation_fault.c``
+------------------------
 
-Двумерные массивы
-=================
+.. code-include:: code/lesson5/segmentation_fault.c
+    :lexer: cpp
+
+``memory_leak.c``
+-----------------
+
+.. code-include:: code/lesson5/memory_leak.c
+    :lexer: cpp
+
+Двумерные массивы: обычные и динамические
+=========================================
+
+.. youtube:: MQBV3PMx5sg
 
 Обычные двумерные массивы в С.
+Передача двумерного массива в функцию.
 Динамические двумерные массивы в С.
-Передача массива в функцию и возврат из функции.
+Выделение и освобождение памяти для динамического двумерного массива.
+Передача динамического двумерного массива в функцию и возврат из функции.
 
+
+``static_2d_array.c``
+---------------------
+
+.. code-include:: code/lesson5/static_2d_array.c
+    :lexer: cpp
+
+``dynamic_2d_array.c``
+----------------------
+
+.. code-include:: code/lesson5/dynamic_2d_array.c
+    :lexer: cpp
 
 
 .. Видео ролики курса:
@@ -114,3 +141,5 @@
 	5_02-void_reinterpretation.mp4
 	5_03-functions_parameters.mp4
 	5_04-dynamic_memory.mp4
+	5_05-memory_problems.mp4
+	5_06-static_and_dynamic_2d_arrays.mp4
