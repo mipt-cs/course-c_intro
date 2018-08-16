@@ -20,7 +20,7 @@
 				<td>{{ lesson.summary }}</td>
                 <td>{% if lesson.test_link %}
 					<a href="{{ lesson.test_link }}"> 
-						{% if lesson.test_comment %}Домашняя работа{% else %} {{ lesson.test_comment}} {% endif %}
+						{% if lesson.test_comment %} {{ lesson.test_comment}} {% else %} Домашняя работа {% endif %}
 					</a>{% endif %}</td>
             </tr>
             {% endfor %}
